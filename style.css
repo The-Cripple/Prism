@@ -1,7 +1,8 @@
 	* {
-	    	font-family: "Roboto", "ぼくたちのゴシック２ボールド" !important;
-	    	outline: none;
+		font-family: "Roboto",  !important;
+		outline: none;
 	}
+
 	html,
 	body {
 		height: 100% !important;
@@ -9,6 +10,7 @@
 		margin: 0;
 		overflow: hidden;
 	}
+
 	#container {
 		/* MAIN CONTAINER */
 		background: #F9F9F9;
@@ -17,20 +19,23 @@
 		margin: auto;
 		text-align: center;
 	}
+
 	#banner {
 		background: no-repeat url("background/background_01.png") center 22%;
 		background-size: cover;
-		height:35%;
+		height: 35%;
 		width: 100%
 	}
+
 	#banner #message {
 		background: rgba(33, 33, 33, .5);
 		height: 100% !important;
-		width: inherit;    
+		width: inherit;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
+
 	#banner #message #message_box {
 		color: #FFF;
 		font-family: "Bebas Neue" !important;
@@ -38,32 +43,36 @@
 		font-weight: bold;
 		letter-spacing: 10px !important;
 	}
+
 	#banner #time_box {
 		color: #7E7E7E;
 		right: 20px;
 		text-align: right;
 	}
+
 	#banner #day_box {
 		color: #00B5B5;
 		left: 20px;
 		text-align: left;
 	}
+
 	#banner #time_box,
 	#banner #day_box {
 		background: #FFF;
-		box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		border-radius: 2px !important;
 		font-family: "Roboto";
 		font-size: 14pt;
 		font-stretch: condensed;
-		padding: 10px 15px;	
+		padding: 10px 15px;
 		width: auto !important;
 		position: absolute;
 		bottom: 20px;
 	}
+
 	#searchbox {
 		border: none;
-		box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: #60646D;
 		font-size: 11pt !important;
 		font-stretch: condensed;
@@ -74,6 +83,7 @@
 		width: 100%;
 		padding: 15px 20px
 	}
+
 	#image-button {
 		background-color: transparent;
 		background-image: url("icons/search_icon.png");
@@ -87,15 +97,17 @@
 		margin-top: -70px;
 		right: 1px;
 	}
+
 	#main {
 		height: 100%;
 		width: 100%;
 		padding: 22px 0px;
 		margin-top: 60px;
 	}
+
 	.card {
 		background: #F6F7FB;
-		box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
 		border-radius: 2px;
 		width: 12vw;
 		height: auto;
@@ -105,13 +117,15 @@
 		display: inline-block !important;
 		text-align: center;
 	}
+
 	.card .avatar {
 		border-radius: 50%;
-		box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
 		height: 8.5vw;
 		width: 8.5vw;
 		margin-top: 30px;
 	}
+
 	.card p {
 		color: #FFF;
 		font-family: "Roboto", "KFhimaji" !important;
@@ -120,11 +134,12 @@
 		letter-spacing: 4px;
 		text-transform: uppercase;
 	}
+
 	select {
 		background: #FFF;
 		border: none;
 		border-radius: 1.5px;
-		box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
 		color: inherit;
 		font-family: "Roboto", "KFhimaji" !important;
 		font-size: 11.5pt;
