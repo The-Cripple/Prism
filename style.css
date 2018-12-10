@@ -18,9 +18,9 @@
 		text-align: center;
 	}
 	#banner {
-		background: no-repeat url("background/background_01.png") center 60%;
+		background: no-repeat url("background/background_01.png") center 22%;
 		background-size: cover;
-		height: 25%;
+		height:35%;
 		width: 100%
 	}
 	#banner #message {
