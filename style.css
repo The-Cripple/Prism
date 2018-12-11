@@ -13,7 +13,7 @@
 
 	#container {
 		/* MAIN CONTAINER */
-		background: no-repeat url("background/background_02.png") center -20%;
+		background: no-repeat url("background/background_02.png") center 10%;
 		width: 100%;
 		height: 100%;
 		margin: auto;
@@ -89,7 +89,7 @@
 
 	#image-button {
 		background-color: transparent;
-		background-image: url("icons/search_icon.png");
+		
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 18px auto;
@@ -119,7 +119,7 @@
 		margin-right: 15px;
 		display: inline-block !important;
 		text-align: center;
-		opacity: 0.95;
+		opacity: 0.9;
 	}
 
 	.card .avatar {
